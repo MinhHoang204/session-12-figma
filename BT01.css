@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.li {
+    list-style: none;
+}
+
+.header {
+    width: 1440px;
+    height: 120px;
+    border: 0px, 0px, 2px, 0px;
+    background-color: #F3F3F3;
+} 
+
+.header-left {
+    text-transform: uppercase;
+    width: 130px;
+    height: 42px;
+    top: 39px;
+    left: 100px;
+    gap: 12px;
+}
+
+.material-symbols-outlined {
+    width: 76.05px;
+    height: 18.77px;
+    color: #151411;
+}
+
+.header-right {
+    width: 461px;
+    height: 32px;
+    top: 44px;
+    left: 490px;
+    gap: 60px;
+}
+
+.header-item {
+    display: flex;
+    flex-direction: column;
+}
